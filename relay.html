@@ -1,0 +1,29 @@
+<center>
+  <br />
+  <br />
+  <br />
+  <form
+    action="https://api.particle.io/v1/devices/230020001147393132343438/led?access_token=037592575c849b01ae0561e6611b5e7989acb94b"
+    method="POST"
+    target="nm_iframe"
+  >
+    Tell your device what to do!<br />
+    <br />
+    <input type="submit" name="args" value="on" />Turn on.
+    <br />
+    <br />
+    <input type="submit" name="args" value="off" />Turn off.
+  </form>
+  <iframe id="id_iframe" name="nm_iframe" style="display: none"></iframe>
+  <!-- <script type="text/javascript">
+    　　//定位提交按鈕
+    　　 var inputElement = document.getElementsByTagName("input")[0];
+    　　//為提交按鈕新增單擊事件
+    　　 inputElement.onclick = function(){
+    　　//定位<form>標籤，forms表示document物件中所有表單的集合，通過下標引用不同的表單，從0開始
+    var formElement = document.forms[0];
+    //提交表單，提交到action屬性指定的地方
+    formElement.submit();
+    }  
+    </script> -->
+</center>
